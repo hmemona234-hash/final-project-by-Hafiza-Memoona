@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bano Qabil — Learn, Build, Succeed</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <img src="banologo.jpg" alt="logo" class="logo" width="5px" height="3px">
+        <span class="brand-text">Bano Qabil</span>
+      </a>
+
+      <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+
+          <!-- Portfolio with sub-options -->
+          <li class="has-sub">
+            <button class="sub-btn" aria-expanded="false">Portfolio ▾</button>
+            <ul class="sub-list">
+              <li><a href="about">About / Mission</a></li>
+              <li><a href="#administrative-policies">Policies</a></li>
+              <li><a href="#administrative-staff">Staff & Office</a></li>
+              <li><a href="#administrative-careers">Careers & Internships</a></li>
+              <li><a href="#administrative-partners">Partners</a></li>
+            </ul>
+          </li>
+
+          <!-- Admission group -->
+          <li class="has-sub">
+            <button class="sub-btn" aria-expanded="false">Admission ▾</button>
+            <ul class="sub-list">
+              <li><a href="#admission-apply">Apply Online</a></li>
+              <li><a href="#admission-criteria">Eligibility</a></li>
+              <li><a href="#admission-fees">Fees & Plans</a></li>
+              <li><a href="#admission-scholar">Scholarships</a></li>
+              <li><a href="#admission-faq">Admission FAQ</a></li>
+            </ul>
+          </li>
+
+          <!-- Courses group -->
+          <li class="has-sub">
+            <button class="sub-btn" aria-expanded="false">Courses ▾</button>
+            <ul class="sub-list">
+              <li><a href="#course-web">Web Development</a></li>
+              <li><a href="#course-ecom">E-Commerce</a></li>
+              <li><a href="#course-dm">Digital Marketing</a></li>
+              <li><a href="#course-gd">Graphic Designing</a></li>
+              <li><a href="#course-basic">Basic Computer</a></li>
+              <li><a href="#video-editing">Video Editing</a></li>
+            </ul>
+          </li>
+
+          <!-- Events group -->
+          <li class="has-sub">
+            <button class="sub-btn" aria-expanded="false">Events ▾</button>
+            <ul class="sub-list">
+              <li><a href="#event-orientation">Orientation</a></li>
+              <li><a href="#event-workshop">Workshops</a></li>
+              <li><a href="#event-expo">IT Expo Visits</a></li>
+              <li><a href="#event-competition">Skills Competition</a></li>
+              <li><a href="#event-graduation">Graduation</a></li>
+            </ul>
+          </li>
+
+          <li class="has-sub">
+            <button class="sub-btn" aria-expanded="false">FAQs ▾</button>
+            <ul class="sub-list">
+              <li><a href="#faq-general">General</a></li>
+              <li><a href="#faq-courses">Course-related</a></li>
+              <li><a href="#faq-admission">Admission</a></li>
+              <li><a href="#faq-payments">Payments</a></li>
+            </ul>
+          </li>
+
+          <li class="has-sub">
+            <button class="sub-btn" aria-expanded="false">Faculty ▾</button>
+            <ul class="sub-list">
+              <li><a href="#faculty-web">Web Team</a></li>
+              <li><a href="#faculty-dm">Marketing Team</a></li>
+              <li><a href="#faculty-gd">Design Team</a></li>
+              <li><a href="#faculty-admin">Admin Trainers</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#donate" class="btn btn-cta">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero" >
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Learn. Build. Succeed — with Bano Qabil</h1>
+          <p class="lead">Practical, project-based courses in Web Development, E-Commerce, Digital Marketing, Graphic
+            Design and Basic Computing. Scholarships & placement support available.</p>
+          <div class="hero-ctas">
+            <a href="#admission-apply" class="btn btn-primary">Apply Now</a>
+            <a href="#courses" class="btn btn-outline">Explore Courses</a>
+            <a href="#gallery" class="btn">See Gallery</a>
+          </div>
+
+          <ul class="hero-highlights">
+            <li>Hands-on projects</li>
+            <li>Placement assistance</li>
+            <li>Merit & need-based scholarships</li>
+            <li>Flexible schedules (weekend/evening)</li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <picture>
+            <source media="(max-width:600px)"
+              srcset="https://images.unsplash.com/photo-1523475496153-3d6cc7a15b14?w=800&q=60&auto=format&fit=crop">
+            <img src="teamm.jpg" alt="TEam" width="">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMINISTRATIVE (Portfolio clickable deeper pages) -->
+    <section id="administrative-about" class="section">
+      <div class="container">
+        <h2>About — Mission & Vision</h2>
+        <p>Bano Qabil exists to empower youth through industry-aligned skills training, real projects, and employer
+          connections. We focus on practical outcomes: portfolios, freelancing, and job placement.</p>
+
+        <div class="admin-grid">
+          <article>
+            <h3>Mission:</h3>
+            <p>Deliver accessible, high-quality digital skills training that leads to income generation and employment.
+            </p>
+          </article>
+
+          <article>
+            <h3>Vision:</h3>
+            <p>Become a leading regional skills academy known for placing graduates in the digital economy.</p>
+          </article>
+
+          <article>
+            <h3>Values:</h3>
+            <ul> 
+              <li>Practical learning</li>
+              <li>Integrity</li>
+              <li>Inclusion</li>
+              <li>Industry partnership</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="administrative-policies" class="section alt">
+      <div class="container">
+        <h2>Policies</h2>
+        <ul class="info-list">
+          <li><strong>Attendance:</strong> 80% minimum attendance required for certificate eligibility.</li>
+          <li><strong>Refund:</strong> Every Student will be pay 3000 before the starting of course. After completion
+            the course institute will return the 3000 fund</li>
+          <li><strong>Code of Conduct:</strong> Respectful behaviour, no harassment, copyright compliance.</li>
+          <li><strong>Data Privacy:</strong> Student data stored securely; shared with partners only with consent.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="administrative-staff" class="section">
+      <div class="container">
+        <h2>Staff & Office</h2>
+        <p>Office hours: Morning 8.00Am to Night 9.00pm Office Phone: +92 300 0000000. Email: info@banoqabil.org</p>
+
+        <div class="staff-grid">
+          <div class="staff-card">
+             <img src="hafiz.jpg" alt="" height="180px" width="230px">
+            <h4>  Hafiz Naeem ur rehman </h4>
+            <p>patro- in- chief</p>
+          </div>
+          <div class="staff-card">
+             <img src="directtt.jpg" alt="" height="180px" width="230px">
+            <h4>Faisal Anwar</h4>
+            <p> Director </p>
+          </div>
+          <div class="staff-card">
+ <img src="ce.jpg" alt="" height="180px" width="230px">
+            <h4>Shaid Iqbal</h4>
+            <p> CEO </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="administrative-careers" class="section alt">
+      <div class="container">
+        <h2>Careers & Internships</h2>
+        <p>We hire trainers, mentors and placement officers. Internships available for outstanding students. Send CVs to
+          careers@banoqabil.org</p>
+        <ul>
+          <li>Trainer</li>
+          <li>Placement officer</li>
+          <li>Community manager</li>
+        </ul>
+      </div>
+    </section>
+          <h3>How scholarships work</h3>
+          <ol>
+            <li>Tick scholarship on the form and attach portfolio / supporting info.</li>
+            <li>Shortlisted candidates will be invited for a brief online task/interview.</li>
+            <li>Final decision announced within 14 days via email.</li>
+            <li>Merit winners receive up to 100% tuition waiver; need-based receive partial support.</li>
+          </ol>
+          <p><strong>Documents required (if applying for need-based):</strong> ID, proof of income (family), recent
+            photograph.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="admission-criteria" class="section">
+      <div class="container">
+        <h2>Eligibility</h2>
+        <p>Open to learners . But some things are requried for enroll in these courses.</p>
+        <ul>
+          <li>Entry Test should be clear</li>
+          <li>Pass the Interview</li>
+          <li>Submit the security fee (300)</li>
+        </ul>
+      </div>
+    </section>
+     <!-- COURSES -->
+    <section id="courses" class="section">
+      <div class="container">
+        <h2>Courses — Overview</h2>
+        <p class="lead">Click any course below for detailed weekly syllabus and project examples.</p>
+      </div>
+    </section>
+    <!-- Course cards -->
+    <section class="section alt">
+      <div class="container cards">
+        <!-- Web -->
+        <article class="card course" id="course-web">
+          <img src="webd.jpg" alt="wb">
+          <h3>Web Development</h3>
+          <ul class="mini-list">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive layouts & Bootstrap/Tailwind</li>
+            <li>Backend basics (Node.js / Express)</li>
+            <li>Project: Portfolio + Small e-commerce</li>
+          </ul>
+          <a href="#course-web-details" class="details-link">More details</a>
+        </article>
+
+        <!-- Ecom -->
+        <article class="card course" id="course-ecom">
+          <img src="ecomerce.jpg" alt="">
+          <h3>E-Commerce</h3>
+          <ul class="mini-list">
+            <li>Store setup (Shopify/WooCommerce)</li>
+            <li>Payments & logistics</li>
+            <li>Product photography & listing</li>
+            <li>Project: Live mini-store</li>
+            <li>Buy items</li>
+          </ul>
+          <a href="#course-ecom-details" class="details-link">More details</a>
+        </article>
+
+
+        <!-- DM -->
+        <article class="card course" id="course-dm">
+          <img src="digital.jpg" alt=" DM" width="20px" height="15px">
+          <h3>Digital Marketing</h3>
+          <ul class="mini-list">
+            <li>SEO, Content Strategy</li>
+            <li>Paid Ads (Facebook / Google)</li>
+            <li>Analytics & Conversion</li>
+            <li>Project: Live ad campaign</li>
+            <li>Content Organize</li>
+            <li>Active strategy</li>
+          </ul>
+          <a href="#course-dm-details" class="details-link">More details</a>
+        </article>
+
+        <!-- GD -->
+        <article class="card course" id="course-gd">
+          <img src="graphic.jpg" alt="dm">
+          <h3>Graphic Designing</h3>
+          <ul class="mini-list">
+            <li>Adobe suite basics</li>
+            <li>Branding & logo design</li>
+            <li>Layout & print</li>
+            <li>Project: Brand identity pack</li>
+          </ul>
+          <a href="#course-gd-details" class="details-link">More details</a>
+        </article>
+        <!-- Video Editing-->
+        <article class="card course" id="course-video editing">
+          <img src="video.jpg" alt="">
+          <h3>Video Editing</h3>
+          <ul class="mini-list">
+            <li>Design Video</li>
+            <li>Generate Content</li>
+            <li>Enhance nature</li>
+            <li> Understand templete</li>
+          </ul>
+          <a href="#course- video Editing-details" class="details-link">More details</a>
+        </article>
+
+
+
+        <!-- Basic -->
+        <article class="card course" id="course-basic">
+          <img src="basjc.jpg" alt="">
+          <h3>Basic Computer</h3>
+          <ul class="mini-list">
+            <li>MS Office</li>
+            <li>Email & web basics</li>
+            <li>Typing & productivity</li>
+            <li>Short course — fast track</li>
+          </ul>
+          <a href="#course-basic-details" class="details-link">More details</a>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="admission-fees" class="section alt">
+      <div class="container">
+        <h2>Fees & Plans</h2>
+        <p>We offered these courses without any fee just for youth bright future and the sake of Allah.</p>
+        <table class="fees-table" summary="Example fees">
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web Development (Foundation)</td>
+              <td>4 Months</td>
+            </tr>
+            <tr>
+              <td>Digital Marketing</td>
+              <td>4 Months</td>
+            </tr>
+            <tr>
+              <td>Graphic Designing</td>
+              <td>4 Months</td>
+              <td></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>E-Commerce</td>
+              <td>4 Months</td>
+            </tr>
+            <tr>
+              <td>Basic Computer</td>
+              <td>4 Months</td>
+              
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="admission-scholar" class="section">
+      <div class="container">
+        <h2>Scholarships & Sponsorships — Detailed</h2>
+
+        <div class="scholar-grid">
+          <article class="scholar-card">
+            <h3>Merit Scholarship</h3>
+            <p><strong>Who:</strong> Top applicants based on practical task & interview.</p>
+            <p><strong>Benefit:</strong> Up to 100% tuition waiver, mentorship sessions, priority placement.</p>
+            <p><strong>Apply:</strong> Select "Merit" in the form and submit a sample task (link to GitHub or
+              portfolio).</p>
+            <p><strong>Selection:</strong> Shortlisting → practical task → interview → final offer.</p>
+          </article>
+
+          <article class="scholar-card">
+            <h3>Need-Based Sponsorship</h3>
+            <p><strong>Who:</strong> Learners from low-income households with supporting documents.</p>
+            <p><strong>Benefit:</strong> Partial fee coverage, monthly transport stipend (if available).</p>
+            <p><strong>Apply:</strong> Select "Need-based" and upload supporting documents at the center or send to
+              scholarships@banoqabil.org</p>
+          </article>
+
+          <article class="scholar-card">
+            <h3>Women-in-Tech Grants</h3>
+            <p><strong>Who:</strong> Female applicants keen to pursue tech/design careers.</p>
+            <p><strong>Benefit:</strong> Fee discounts, mentorship, & networking opportunities.</p>
+            <p><strong>Apply:</strong> Select "Women-in-Tech" and provide a short statement (250 words) explaining your
+              goals.</p>
+          </article>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="admission-faq" class="section alt">
+      <div class="container">
+        <h2>Admission FAQ</h2>
+        <ul class="faq-list">
+          <li><strong>when next batch will be start?</strong> Next batch will be start Feb 2026</li>
+          <li><strong>Can I apply for multiple courses?</strong> — No </li>
+          <li><strong>Is there a certificate?</strong> — Yes; certificate on completion and portfolio review.</li>
+          <li><strong> It is necessary 3000 Fund submit before starting the course</strong> Yes, it is confirmation fund
+            of student enroll in course.</li>
+          <li><strong> practical and Theoriticle works include in these courses?</strong> Yes both works include.</li>
+          <li><strong> Can I get any price due to good performance?</strong> Yes institute organize a Ceremony</li>
+          <li><strong> Institute can corporate in schedule with students?</strong> — Yes; institute highly corporate
+            with students in schedule matters.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="faculty" class="section alt">
+  <div class="container">
+    <h2>Faculty & Trainers</h2>
+    <p class="lead">Our trainers bring real industry experience and practical teaching.</p>
+
+    <div class="faculty-grid">
+
+      <div class="faculty-card">
+        <img src="mammm.jpg" alt="Ms. Maryam">
+        <h4>Ms. Maryam</h4>
+        <p>Basics Computer (MS Word, Excel, PowerPoint)</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="Sirg.jpg" alt="Mr. Ghasib">
+        <h4>Mr. Ghasib</h4>
+        <p>Digital Marketing — SEO, Ads & Analytics</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="SirU.jpg" alt="Mr. Umair">
+        <h4>Mr. Umair</h4>
+        <p>Web Developer — Frontend & Backend</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="Mams.jpg" alt="Ms. Sana">
+        <h4>Ms. Sana</h4>
+        <p>Graphic Designer — Adobe Suite Expert</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="sirtt.jpg" alt="Mr. Telha">
+        <h4>Mr. Telha</h4>
+        <p>Digital Marketing — Industry Professional</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="mama.jpg" alt="Video Editor">
+        <h4> Mam</h4>
+        <p>Video Editing — Professional Editor</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Course detail anchors (detailed weekly syllabus) -->
+    <section id="course-web-details" class="section detail">
+      <div class="container">
+        <h3>Web Development — 16-week Syllabus & Projects</h3>
+        <ol>
+          <li><strong></strong> HTML fundamentals, semantic tags, accessibility.</li>
+          <li><strong></strong> CSS basics, layout (Flexbox, Grid), responsive design.</li>
+          <li><strong></strong> JavaScript fundamentals, DOM manipulation.</li>
+          <li><strong></strong> AJAX & fetching APIs, JSON.</li>
+          <li><strong></strong> Intro to backend (Node.js & Express), simple REST API.</li>
+          <li><strong></strong> Authentication basics, forms, validation.</li>
+          <li><strong></strong> Deployment (Netlify/Heroku), Git & GitHub workflow.</li>
+          <li><strong></strong> Final capstone: Personal portfolio & small e-commerce demo.</li>
+        </ol>
+        <p><strong>Capstone deliverable:</strong> Live portfolio site with 3 projects and a blog post.</p>
+      </div>
+    </section>
+
+    <section id="course-ecom-details" class="section alt detail">
+      <div class="container">
+        <h3>E-Commerce — 16-week Syllabus</h3>
+        <ol>
+          <li>Store selection: Shopify vs WooCommerce, setup basics.</li>
+          <li>Product catalog & photography.</li>
+          <li>Payment gateway integration & testing.</li>
+          <li>Shipping & return workflows.</li>
+          <li>Simple digital marketing for stores (ads & SEO).</li>
+          <li>Analytics & conversion improvements.</li>
+          <li>Store launch & testing.</li>
+          <li>Project: Live mini-store with 10 products.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="course-dm-details" class="section detail">
+      <div class="container">
+        <h3>Digital Marketing — 16-week Syllabus</h3>
+        <ol>
+          <li>Introduction to digital marketing & buyer journeys.</li>
+          <li>SEO basics & keyword research.</li>
+          <li>Content strategy & calendars.</li>
+          <li>Paid advertising fundamentals (Facebook, Google).</li>
+          <li>Analytics (Google Analytics) & KPIs.</li>
+          <li>Conversion rate optimization basics.</li>
+          <li>Campaign planning & execution.</li>
+          <li>Project: Run a small paid campaign for a local business.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="course-gd-details" class="section alt detail">
+      <div class="container">
+        <h3>Graphic Designing — 16 week Syllabus</h3>
+        <ol>
+          <li>Design principles & color theory.</li>
+          <li>Adobe Photoshop basics.</li>
+          <li>Adobe Illustrator basics & vector work.</li>
+          <li>Branding & logo design process.</li>
+          <li>Print layout & production basics.</li>
+          <li>Project: Brand identity pack & portfolio.</li>
+        </ol>
+      </div>
+    </section>
+    <section id="course- video Editing-details" class="section alt detail">
+      <div class="container">
+        <h3>Video - Editing — 16 week Syllabus</h3>
+        <ol>
+            <li>Design Video</li>
+            <li>Generate Content</li>
+            <li>Enhance nature</li>
+            <li> Understand templete</li>
+        </ol>
+      </div>
+    </section>
+    <section id="course-basic-details" class="section detail">
+      <div class="container">
+        <h3>Basic Computer — 16week Syllabus</h3>
+        <ol>
+          <li>Computer components & OS basics</li>
+          <li>MS Word & typing</li>
+          <li>MS Excel basics for data & tables</li>
+          <li>MS PowerPoint & email basics</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events" class="section alt">
+      <div class="container">
+        <h2>Events — Community & Workshops</h2>
+        <p class="lead">We host orientation, hands-on workshops, industry visits and competitions.</p>
+
+        <div class="events-grid">
+          <article>
+            <h4>Orientation Ceremony</h4>
+            <p>Welcome session for new students explaining course flow, rules and projects.</p>
+          </article>
+
+          <article>
+            <h4>Hands-on Workshops</h4>
+            <p>Short practical workshops on specific tools (e.g., React basics, Photoshop essentials).</p>
+          </article>
+
+          <article>
+            <h4>IT Expo Visits</h4>
+            <p>Group visits to local expos to meet companies and see live demos.</p>
+          </article>
+
+          <article>
+            <h4>Skills Competition</h4>
+            <p>Practical challenges with certificates and prizes for winners.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  
+
+<h2 class="title"> Gallery </h2>
+
+<div class="gallery">
+
+    <div class="item" onclick="eventOne()">
+        <img src="event11.jpg">
+        <p>Function ceremony</p> 
+    </div>
+
+    <div class="item" onclick="eventTwo()">
+        <img src="event12.jpg">
+        <p> programme Team</p>
+    </div>
+
+    <div class="item" onclick="eventThree()">
+        <img src="event13.jpg">
+        <p>Motivational Conference</p>
+    </div>
+
+    <div class="item" onclick="eventFour()">
+        <img src="event15.jpg">
+        <p>Bano Qabil Test</p>
+    </div>
+
+    <div class="item" onclick="eventFive()">
+        <img src="event14.jpg">
+        <p>Hall Event</p>
+    </div>
+
+    <div class="item" onclick="eventSix()">
+        <img src="event7.jpg">
+        <p>Hall Event</p>
+    </div>
+
+    <div class="item" onclick="eventSeven()">
+        <img src="event8.jpg">
+        <p> Systematic Test</p>
+    </div>
+
+    <div class="item" onclick="eventEight()">
+        <img src="event20.jpg">
+        <p>Certificate Ceremony</p>
+    </div>
+
+</div>
+
+
+
+    <!-- ADMISSION (detailed, attractive form) -->
+    <section id="admission-apply" class="section alt">
+      <div class="container">
+        <h2>Apply Online</h2>
+        <p class="lead">Fill the application below. Fields marked with * are required.</p>
+
+        <form id="admissionForm" class="admission-form" novalidate>
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label>Full name * <input type="text" name="name" required></label>
+            <label>Email * <input type="email" name="email" required></label>
+            <label>Phone * <input type="tel" name="phone" required></label>
+            <label>City <input type="text" name="city"></label>
+            <label>Date of birth <input type="date" name="dob"></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Course Selection</legend>
+            <label>Desired course *
+              <select name="course" required>
+                <option value="">Select course</option>
+                <option>Web Development</option>
+                <option>E-Commerce</option>
+                <option>Digital Marketing</option>
+                <option>Graphic Designing</option>
+                <option>Basic Computer</option>
+              </select>
+            </label>
+
+            <label>Schedule preference
+              <select name="schedule">
+                <option>Monday,Tuesday</option>
+                <option>Wednesday,Thursday</option>
+                <option>Saturday,Sunday</option>
+
+              </select>
+            </label>
+
+            <label>
+              Apply for scholarship?
+              <select name="scholar">
+                <option value="no">No</option>
+                <option value="merit">Merit scholarship</option>
+                <option value="need">Need-based</option>
+                <option value="women">Women-in-Tech</option>
+              </select>
+            </label>
+
+            <label class="full">Short message / Portfolio links (GitHub, Dribbble, etc.) <textarea name="message"
+                rows="4"></textarea></label>
+          </fieldset>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit Application</button>
+            <button type="button" id="clearForm" class="btn">Clear</button>
+          </div>
+
+          <div id="formStatus" class="form-status" aria-live="polite"></div>
+        </form>
+
+        <aside class="admission-info">
+
+    <!-- FAQ (accordion) -->
+    <section id="faqs" class="section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-btn">What are course durations?</button>
+            <div class="accordion-panel">Courses vary from 3 month (Basic) to 4 weeks (Web Dev) depending on program
+              intensity.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-btn">Is it necessary 300 fund submit before the starting the course?</button>
+            <div class="accordion-panel">Yes — It is securty fund.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-btn">Do you provide certificates?</button>
+            <div class="accordion-panel">Yes — completion certificates and portfolio review are provided to eligible
+              students.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-btn">Institute will corporate with students in shudle?</button>
+            <div class="accordion-panel">Yes </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-btn">Are there scholarships?</button>
+            <div class="accordion-panel">Yes — Merit, Need-based and Women-in-Tech scholarships are available. See
+              Scholarships section for details.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & DONATE -->
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Us</h2>
+          <p> Main Fateh shair road Sahiwal — Phone: +92 300 0000000 — Email: info@banoqabil.org</p>
+          <ul class="contact-list">
+            <li><strong>Office Hours:</strong> 8.00Am to 9.00pm</li>
+            <li><strong>Support:</strong> support@banoqabil.org</li>
+          </ul>
+        </div>
+
+        <aside class="donate-card" id="donate">
+          <h3>Donate to Bano Qabil</h3>
+          <p>Your donations fund scholarships and community workshops.</p>
+          <ul class="mini-list">
+            <li>Bank transfer: Bank XYZ — 000123456789</li>
+            <li>JazzCash / Upaisa: +92 300 0000000</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Donate Now</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="banologo.jpg" alt="logo" class="logo small" width="5px" height="3px">
+        <p>© <span id="year"></span> Bano Qabil. All rights reserved.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#admission-apply">Admissions</a>
+        <a href="#events">Events</a>
+      </nav>
+      
+
+          </div>
+    </div>
+  </footer>
+  <script src="First.js"></script>
+
+</html>
